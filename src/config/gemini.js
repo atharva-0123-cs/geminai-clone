@@ -50,7 +50,7 @@ import {
   
     const result = await chat.sendMessage(prompt);
     const response = result.response;
-    // console.log(response.text());
+    console.log(response.text());
     return response.text();
 
   }
